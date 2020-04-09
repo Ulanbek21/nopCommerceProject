@@ -1,0 +1,205 @@
+04/05/2020 02:36:52 AM: DEBUG: POST http://127.0.0.1:54618/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+04/05/2020 02:36:52 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:54618
+04/05/2020 02:36:53 AM: DEBUG: http://127.0.0.1:54618 "POST /session HTTP/1.1" 200 690
+04/05/2020 02:36:53 AM: DEBUG: Finished Request
+04/05/2020 02:36:53 AM: INFO: ********** Test_001_Login **********
+04/05/2020 02:36:53 AM: INFO: ********** Starter Home Page title test **********
+04/05/2020 02:36:53 AM: INFO: ********** Opening URL my app **********
+04/05/2020 02:36:53 AM: DEBUG: POST http://127.0.0.1:54618/session/b5d2b49c27294d2dc748f01f600a4030/url {"url": "https://admin-demo.nopcommerce.com/login"}
+04/05/2020 02:36:54 AM: DEBUG: http://127.0.0.1:54618 "POST /session/b5d2b49c27294d2dc748f01f600a4030/url HTTP/1.1" 200 14
+04/05/2020 02:36:54 AM: DEBUG: Finished Request
+04/05/2020 02:36:54 AM: DEBUG: GET http://127.0.0.1:54618/session/b5d2b49c27294d2dc748f01f600a4030/title {}
+04/05/2020 02:36:54 AM: DEBUG: http://127.0.0.1:54618 "GET /session/b5d2b49c27294d2dc748f01f600a4030/title HTTP/1.1" 200 29
+04/05/2020 02:36:54 AM: DEBUG: Finished Request
+04/05/2020 02:36:54 AM: DEBUG: DELETE http://127.0.0.1:54618/session/b5d2b49c27294d2dc748f01f600a4030/window {}
+04/05/2020 02:36:54 AM: DEBUG: http://127.0.0.1:54618 "DELETE /session/b5d2b49c27294d2dc748f01f600a4030/window HTTP/1.1" 200 12
+04/05/2020 02:36:54 AM: DEBUG: Finished Request
+04/05/2020 02:36:54 AM: ERROR: ********** home page title test failed **********
+04/05/2020 02:36:56 AM: DEBUG: POST http://127.0.0.1:54633/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+04/05/2020 02:36:56 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:54633
+04/05/2020 02:36:57 AM: DEBUG: http://127.0.0.1:54633 "POST /session HTTP/1.1" 200 690
+04/05/2020 02:36:57 AM: DEBUG: Finished Request
+04/05/2020 02:36:57 AM: INFO: ********** Started login test **********
+04/05/2020 02:36:57 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/url {"url": "https://admin-demo.nopcommerce.com/login"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/url HTTP/1.1" 200 14
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element {"using": "css selector", "value": "[id=\"Email\"]"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element HTTP/1.1" 200 88
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element/9b480fca-a81f-4a17-b48e-cfc69e0a7ee8/clear {"id": "9b480fca-a81f-4a17-b48e-cfc69e0a7ee8"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element/9b480fca-a81f-4a17-b48e-cfc69e0a7ee8/clear HTTP/1.1" 200 14
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element {"using": "css selector", "value": "[id=\"Email\"]"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element HTTP/1.1" 200 88
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element/9b480fca-a81f-4a17-b48e-cfc69e0a7ee8/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "9b480fca-a81f-4a17-b48e-cfc69e0a7ee8"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element/9b480fca-a81f-4a17-b48e-cfc69e0a7ee8/value HTTP/1.1" 200 14
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element {"using": "css selector", "value": "[id=\"Password\"]"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element HTTP/1.1" 200 88
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element/2a326481-4aec-4654-b8e6-b9506ae050fc/clear {"id": "2a326481-4aec-4654-b8e6-b9506ae050fc"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element/2a326481-4aec-4654-b8e6-b9506ae050fc/clear HTTP/1.1" 200 14
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element {"using": "css selector", "value": "[id=\"Password\"]"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element HTTP/1.1" 200 88
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element/2a326481-4aec-4654-b8e6-b9506ae050fc/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "2a326481-4aec-4654-b8e6-b9506ae050fc"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element/2a326481-4aec-4654-b8e6-b9506ae050fc/value HTTP/1.1" 200 14
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"}
+04/05/2020 02:36:58 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element HTTP/1.1" 200 88
+04/05/2020 02:36:58 AM: DEBUG: Finished Request
+04/05/2020 02:36:58 AM: DEBUG: POST http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/element/2c1c575b-8b4f-4b91-8542-68f4ab876139/click {"id": "2c1c575b-8b4f-4b91-8542-68f4ab876139"}
+04/05/2020 02:37:01 AM: DEBUG: http://127.0.0.1:54633 "POST /session/c53c4149d08cbcb2a452d611cab60c89/element/2c1c575b-8b4f-4b91-8542-68f4ab876139/click HTTP/1.1" 200 14
+04/05/2020 02:37:01 AM: DEBUG: Finished Request
+04/05/2020 02:37:01 AM: DEBUG: GET http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/title {}
+04/05/2020 02:37:01 AM: DEBUG: http://127.0.0.1:54633 "GET /session/c53c4149d08cbcb2a452d611cab60c89/title HTTP/1.1" 200 50
+04/05/2020 02:37:01 AM: DEBUG: Finished Request
+04/05/2020 02:37:01 AM: DEBUG: DELETE http://127.0.0.1:54633/session/c53c4149d08cbcb2a452d611cab60c89/window {}
+04/05/2020 02:37:01 AM: DEBUG: http://127.0.0.1:54633 "DELETE /session/c53c4149d08cbcb2a452d611cab60c89/window HTTP/1.1" 200 12
+04/05/2020 02:37:01 AM: DEBUG: Finished Request
+04/05/2020 02:37:01 AM: INFO: ********** Login test passed **********
+04/05/2020 02:41:39 AM: INFO: ********** Test_001_Login **********
+04/05/2020 02:41:39 AM: INFO: ********** Starter Home Page title test **********
+04/05/2020 02:41:39 AM: INFO: ********** Opening URL my app **********
+04/05/2020 02:41:40 AM: ERROR: ********** home page title test failed **********
+04/05/2020 02:41:42 AM: INFO: ********** Started login test **********
+04/05/2020 02:41:46 AM: INFO: ********** Login test passed **********
+04/05/2020 03:05:16 AM: INFO: ********** Test_001_Login **********
+04/05/2020 03:05:16 AM: INFO: ********** Starter Home Page title test **********
+04/05/2020 03:05:16 AM: INFO: ********** Opening URL my app **********
+04/05/2020 03:05:17 AM: ERROR: ********** home page title test failed **********
+04/05/2020 03:05:19 AM: INFO: ********** Started login test **********
+04/05/2020 03:05:23 AM: INFO: ********** Login test passed **********
+04/05/2020 03:05:44 AM: INFO: ********** Test_001_Login **********
+04/05/2020 03:05:44 AM: INFO: ********** Starter Home Page title test **********
+04/05/2020 03:05:44 AM: INFO: ********** Opening URL my app **********
+04/05/2020 03:05:45 AM: INFO: ********** home page title test passed **********
+04/05/2020 03:05:46 AM: INFO: ********** Started login test **********
+04/05/2020 03:05:50 AM: INFO: ********** Login test passed **********
+04/06/2020 01:50:17 AM: INFO: ********** Test_001_Login **********
+04/06/2020 01:50:17 AM: INFO: ********** Starter Home Page title test **********
+04/06/2020 01:50:17 AM: INFO: ********** Opening URL my app **********
+04/06/2020 01:50:18 AM: INFO: ********** home page title test passed **********
+04/06/2020 01:50:20 AM: INFO: ********** Started login test **********
+04/06/2020 01:50:24 AM: INFO: ********** Login test passed **********
+04/06/2020 03:54:05 AM: INFO: ********** Started Test_002_DDT_Login **********
+04/06/2020 06:23:11 PM: INFO: ********** Started Test_002_DDT_Login **********
+04/06/2020 06:29:15 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+04/06/2020 06:29:15 PM: INFO: ******* Starting Login DDT Test **********
+04/06/2020 06:33:05 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+04/06/2020 06:33:05 PM: INFO: ******* Starting Login DDT Test **********
+04/06/2020 06:44:57 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+04/06/2020 06:44:57 PM: INFO: ******* Starting Login DDT Test **********
+04/06/2020 06:45:06 PM: INFO: **** passed ****
+04/06/2020 06:48:54 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+04/06/2020 06:48:54 PM: INFO: ******* Starting Login DDT Test **********
+04/06/2020 06:51:53 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+04/06/2020 06:51:53 PM: INFO: ******* Starting Login DDT Test **********
+04/06/2020 06:52:03 PM: INFO: **** passed ****
+04/06/2020 06:52:09 PM: INFO:  **** passed **** 
+04/06/2020 06:52:15 PM: INFO:  **** passed **** 
+04/06/2020 06:52:21 PM: INFO:  **** passed **** 
+04/06/2020 10:54:26 PM: INFO: ************* Test_003_AddCustomer **********
+04/06/2020 10:54:30 PM: INFO: ************* Login succesful **********
+04/06/2020 10:54:30 PM: INFO: ******* Starting Add Customer Test **********
+04/06/2020 10:54:32 PM: INFO: ************* Providing customer info **********
+04/06/2020 10:54:48 PM: INFO: ************* Saving customer info **********
+04/06/2020 10:54:48 PM: INFO: ********* Add customer validation started *****************
+04/06/2020 10:54:49 PM: INFO: ********* Add customer Test Passed *********
+04/06/2020 10:54:49 PM: INFO: ******* Ending Add customer test **********
+04/07/2020 01:02:03 AM: INFO: ************* SearchCustomerByEmail_004 **********
+04/07/2020 01:02:08 AM: INFO: ************* Login succesful **********
+04/07/2020 01:02:08 AM: INFO: ******* Starting Search Customer By Email **********
+04/07/2020 01:02:09 AM: INFO: ************* searching customer by emailID **********
+04/07/2020 01:02:15 AM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+04/07/2020 01:07:59 AM: INFO: ************* SearchCustomerByName_005 **********
+04/07/2020 01:08:03 AM: INFO: ************* Login succesful **********
+04/07/2020 01:08:03 AM: INFO: ******* Starting Search Customer By Name **********
+04/07/2020 01:08:07 AM: INFO: ************* searching customer by Name **********
+04/07/2020 01:08:12 AM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+04/07/2020 11:20:24 PM: INFO: ************* Test_003_AddCustomer **********
+04/07/2020 11:20:28 PM: INFO: ************* Login succesful **********
+04/07/2020 11:20:28 PM: INFO: ******* Starting Add Customer Test **********
+04/07/2020 11:20:31 PM: INFO: ************* Providing customer info **********
+04/07/2020 11:20:43 PM: INFO: ************* Saving customer info **********
+04/07/2020 11:20:43 PM: INFO: ********* Add customer validation started *****************
+04/07/2020 11:20:43 PM: INFO: ********* Add customer Test Passed *********
+04/07/2020 11:20:43 PM: INFO: ******* Ending Add customer test **********
+04/07/2020 11:21:32 PM: INFO: ************* Test_003_AddCustomer **********
+04/07/2020 11:21:36 PM: INFO: ************* Login succesful **********
+04/07/2020 11:21:36 PM: INFO: ******* Starting Add Customer Test **********
+04/07/2020 11:21:38 PM: INFO: ************* Providing customer info **********
+04/07/2020 11:21:51 PM: INFO: ************* Saving customer info **********
+04/07/2020 11:21:51 PM: INFO: ********* Add customer validation started *****************
+04/07/2020 11:21:51 PM: INFO: ********* Add customer Test Passed *********
+04/07/2020 11:21:51 PM: INFO: ******* Ending Add customer test **********
+04/08/2020 06:01:31 PM: INFO: ************* Test_003_AddCustomer **********
+04/08/2020 06:01:37 PM: INFO: ************* Login succesful **********
+04/08/2020 06:01:37 PM: INFO: ******* Starting Add Customer Test **********
+04/08/2020 06:01:39 PM: INFO: ************* Providing customer info **********
+04/08/2020 06:01:52 PM: INFO: ************* Saving customer info **********
+04/08/2020 06:01:52 PM: INFO: ********* Add customer validation started *****************
+04/08/2020 06:01:52 PM: INFO: ********* Add customer Test Passed *********
+04/08/2020 06:01:52 PM: INFO: ******* Ending Add customer test **********
+04/08/2020 06:01:54 PM: INFO: ********** Test_001_Login **********
+04/08/2020 06:01:54 PM: INFO: ********** Starter Home Page title test **********
+04/08/2020 06:01:54 PM: INFO: ********** Opening URL my app **********
+04/08/2020 06:01:56 PM: INFO: ********** home page title test passed **********
+04/08/2020 06:01:58 PM: INFO: ********** Started login test **********
+04/08/2020 06:02:02 PM: INFO: ********** Login test passed **********
+04/08/2020 06:02:04 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+04/08/2020 06:02:04 PM: INFO: ******* Starting Login DDT Test **********
+04/08/2020 06:02:12 PM: INFO: **** passed ****
+04/08/2020 06:02:21 PM: INFO:  **** passed **** 
+04/08/2020 06:02:26 PM: INFO:  **** passed **** 
+04/08/2020 06:02:35 PM: INFO:  **** passed **** 
+04/08/2020 06:02:38 PM: INFO: ************* SearchCustomerByEmail_004 **********
+04/08/2020 06:02:42 PM: INFO: ************* Login succesful **********
+04/08/2020 06:02:42 PM: INFO: ******* Starting Search Customer By Email **********
+04/08/2020 06:02:44 PM: INFO: ************* searching customer by emailID **********
+04/08/2020 06:02:50 PM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+04/08/2020 06:02:53 PM: INFO: ************* SearchCustomerByName_005 **********
+04/08/2020 06:02:57 PM: INFO: ************* Login succesful **********
+04/08/2020 06:02:57 PM: INFO: ******* Starting Search Customer By Name **********
+04/08/2020 06:03:50 PM: INFO: ************* Test_003_AddCustomer **********
+04/08/2020 06:03:54 PM: INFO: ************* Login succesful **********
+04/08/2020 06:03:54 PM: INFO: ******* Starting Add Customer Test **********
+04/08/2020 06:03:58 PM: INFO: ************* Providing customer info **********
+04/08/2020 06:04:09 PM: INFO: ************* Saving customer info **********
+04/08/2020 06:04:09 PM: INFO: ********* Add customer validation started *****************
+04/08/2020 06:04:09 PM: INFO: ********* Add customer Test Passed *********
+04/08/2020 06:04:10 PM: INFO: ******* Ending Add customer test **********
+04/08/2020 06:04:14 PM: INFO: ********** Started login test **********
+04/08/2020 06:04:19 PM: INFO: ********** Login test passed **********
+04/08/2020 06:07:04 PM: INFO: ************* Test_003_AddCustomer **********
+04/08/2020 06:07:09 PM: INFO: ************* Login succesful **********
+04/08/2020 06:07:09 PM: INFO: ******* Starting Add Customer Test **********
+04/08/2020 06:07:11 PM: INFO: ************* Providing customer info **********
+04/08/2020 06:07:23 PM: INFO: ************* Saving customer info **********
+04/08/2020 06:07:23 PM: INFO: ********* Add customer validation started *****************
+04/08/2020 06:07:23 PM: INFO: ********* Add customer Test Passed *********
+04/08/2020 06:07:23 PM: INFO: ******* Ending Add customer test **********
+04/08/2020 06:07:26 PM: INFO: ********** Started login test **********
+04/08/2020 06:07:30 PM: INFO: ********** Login test passed **********
+04/08/2020 06:10:14 PM: INFO: ************* Test_003_AddCustomer **********
+04/08/2020 06:10:18 PM: INFO: ************* Login succesful **********
+04/08/2020 06:10:18 PM: INFO: ******* Starting Add Customer Test **********
+04/08/2020 06:10:21 PM: INFO: ************* Providing customer info **********
+04/08/2020 06:10:33 PM: INFO: ************* Saving customer info **********
+04/08/2020 06:10:33 PM: INFO: ********* Add customer validation started *****************
+04/08/2020 06:10:33 PM: INFO: ********* Add customer Test Passed *********
+04/08/2020 06:10:33 PM: INFO: ******* Ending Add customer test **********
+04/08/2020 06:10:35 PM: INFO: ********** Started login test **********
+04/08/2020 06:10:40 PM: INFO: ********** Login test passed **********
+04/08/2020 06:23:53 PM: INFO: ************* Test_003_AddCustomer **********
+04/08/2020 06:23:58 PM: INFO: ************* Login succesful **********
+04/08/2020 06:23:58 PM: INFO: ******* Starting Add Customer Test **********
+04/08/2020 06:24:00 PM: INFO: ************* Providing customer info **********
+04/08/2020 06:24:12 PM: INFO: ************* Saving customer info **********
+04/08/2020 06:24:12 PM: INFO: ********* Add customer validation started *****************
+04/08/2020 06:24:12 PM: INFO: ********* Add customer Test Passed *********
+04/08/2020 06:24:12 PM: INFO: ******* Ending Add customer test **********
+04/08/2020 06:24:15 PM: INFO: ********** Started login test **********
+04/08/2020 06:24:20 PM: INFO: ********** Login test passed **********
